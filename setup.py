@@ -6,6 +6,8 @@ import unified_planning
 
 long_description = "Unified Planning: A library that makes it easy to formulate planning problems and to invoke automated planners."
 
+ACHANGE = "just a change to see if I pass CI/CD checks"
+
 setup(
     name="unified_planning",
     version=unified_planning.__version__,
