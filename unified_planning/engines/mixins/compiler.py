@@ -39,6 +39,7 @@ class CompilationKind(Enum):
     MA_SL_SOCIAL_LAW = auto()
     SA_MA_CONVERSION = auto()
     TIMED_TO_SEQUENTIAL = auto()
+    CONFORMANT_TO_CLASSICAL_KS0 = auto()
 
 
 class CompilerMixin(ABC):
